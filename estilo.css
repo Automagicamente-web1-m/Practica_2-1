@@ -10,3 +10,7 @@ body{
 .contenedor-img{
     height: 300px;
 }
+
+#contenedor-adopcion{
+    display: flex;
+}
