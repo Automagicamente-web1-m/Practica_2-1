@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.img-carousel{
+    height: 100%;
+}
+
+.contenedor-img{
+    height: 300px;
+}
