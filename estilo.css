@@ -13,6 +13,7 @@ body {
 
 #contenedor-adopcion {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #contenedor-carousel {
