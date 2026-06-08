@@ -1,16 +1,34 @@
-body{
+body {
     background-color: black;
     color: whitesmoke;
 }
 
-.img-carousel{
+.img-carousel {
     height: 100%;
 }
 
-.contenedor-img{
+.contenedor-img {
     height: 300px;
 }
 
-#contenedor-adopcion{
+#contenedor-adopcion {
     display: flex;
+}
+
+#contenedor-carousel {
+    display: grid;
+}
+
+@media (width >=700px) {
+    #carouselExample {
+        width: 40vw;
+    }
+
+    #contenedor-carousel {
+        justify-content: center;
+    }
+
+    h1 {
+        color: red;
+    }
 }
